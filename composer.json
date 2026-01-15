@@ -1,7 +1,7 @@
 {
-    "name": "fontai/propel2-eventdispatcher-behavior",
+    "name": "hudym/propel2-eventdispatcher-behavior",
     "version": "1.0",
-    "description": "Fontai Propel2 EventDispatcher Behavior",
+    "description": "Hudym Propel2 EventDispatcher Behavior",
     "type": "propel-behavior",
     "extra": {
         "name": "event_dispatcher",

@@ -5,14 +5,14 @@
     "type": "propel-behavior",
     "extra": {
         "name": "event_dispatcher",
-        "class": "Fontai\\Propel\\Behavior\\EventDispatcher\\EventDispatcherBehavior"
+        "class": "Hudym\\Propel\\Behavior\\EventDispatcher\\EventDispatcherBehavior"
     },
     "require": {
         "php": ">=7.1.0",
         "propel/propel": "2.0.0-beta2||2.0.0-beta3||2.0.0-beta4"
     },
     "autoload": {
-        "psr-4": { "Fontai\\Propel\\Behavior\\EventDispatcher\\": "src/Propel/Generator/" },
+        "psr-4": { "Hudym\\Propel\\Behavior\\EventDispatcher\\": "src/Propel/Generator/" },
         "exclude-from-classmap": [
             "/Tests/"
         ]

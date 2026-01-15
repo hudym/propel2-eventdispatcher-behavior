@@ -1,5 +1,5 @@
 <?php
-namespace Fontai\Propel\Behavior\EventDispatcher\Event;
+namespace Hudym\Propel\Behavior\EventDispatcher\Event;
 
 use Propel\Runtime\ActiveRecord\ActiveRecordInterface;
 use Symfony\Contracts\EventDispatcher\Event;

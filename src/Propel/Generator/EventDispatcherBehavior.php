@@ -1,5 +1,5 @@
 <?php
-namespace Fontai\Propel\Behavior\EventDispatcher;
+namespace Hudym\Propel\Behavior\EventDispatcher;
 
 use Propel\Generator\Builder\Om\ObjectBuilder;
 use Propel\Generator\Model\Behavior;
@@ -16,7 +16,7 @@ class EventDispatcherBehavior extends Behavior
 
   public function objectMethods(ObjectBuilder $builder)
   {
-    $builder->declareClasses('Fontai\\Propel\\Behavior\\EventDispatcher\\Event\\PropelEvent');
+    $builder->declareClasses('Hudym\\Propel\\Behavior\\EventDispatcher\\Event\\PropelEvent');
 
     return $this->renderTemplate('objectDispatchEvent');
   }
